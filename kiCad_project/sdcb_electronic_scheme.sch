@@ -28,21 +28,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:arduino
-LIBS:w_connectors
-LIBS:relays_2
-LIBS:nais_tq2sa_smd_relay
-LIBS:switch_dpdt
-LIBS:switch_spdt
 LIBS:relays
 LIBS:sdcb_electronic_scheme-cache
-EELAYER 25 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
+Date "4 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -64,56 +58,56 @@ $EndComp
 $Comp
 L HEADER_2 J1
 U 1 1 55B7F512
-P 1000 1450
-F 0 "J1" H 1000 1600 60  0000 C CNN
-F 1 "POWER_12V" H 1000 1300 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01" H 1000 1450 60  0001 C CNN
-F 3 "" H 1000 1450 60  0000 C CNN
-	1    1000 1450
-	1    0    0    -1  
+P 700 850
+F 0 "J1" H 700 1000 60  0000 C CNN
+F 1 "POWER_12V" H 700 700 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01" H 700 850 60  0001 C CNN
+F 3 "" H 700 850 60  0000 C CNN
+	1    700  850 
+	-1   0    0    1   
 $EndComp
 $Comp
 L C C1
 U 1 1 55B7F855
-P 4100 1050
-F 0 "C1" H 4125 1150 50  0000 L CNN
-F 1 "0.1 uF" H 4125 950 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 4138 900 30  0001 C CNN
-F 3 "" H 4100 1050 60  0000 C CNN
-	1    4100 1050
+P 2300 1000
+F 0 "C1" H 2325 1100 50  0000 L CNN
+F 1 "0.1 uF" H 2325 900 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 2338 850 30  0001 C CNN
+F 3 "" H 2300 1000 60  0000 C CNN
+	1    2300 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L CP C2
 U 1 1 55B7F95A
-P 4550 1050
-F 0 "C2" H 4575 1150 50  0000 L CNN
-F 1 "2200 uF" H 4575 950 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_25x14mm_RM5_CopperClear" H 4588 900 30  0001 C CNN
-F 3 "" H 4550 1050 60  0000 C CNN
-	1    4550 1050
+P 2700 1000
+F 0 "C2" H 2725 1100 50  0000 L CNN
+F 1 "2200uF 25V" H 2725 900 50  0000 L CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_25x14mm_RM5_CopperClear" H 2738 850 30  0001 C CNN
+F 3 "" H 2700 1000 60  0000 C CNN
+	1    2700 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L +12V #PWR01
 U 1 1 55B7FB0B
-P 3550 900
-F 0 "#PWR01" H 3550 750 50  0001 C CNN
-F 1 "+12V" H 3550 1040 50  0000 C CNN
-F 2 "" H 3550 900 60  0000 C CNN
-F 3 "" H 3550 900 60  0000 C CNN
-	1    3550 900 
+P 2500 800
+F 0 "#PWR01" H 2500 650 50  0001 C CNN
+F 1 "+12V" H 2500 940 50  0000 C CNN
+F 2 "" H 2500 800 60  0000 C CNN
+F 3 "" H 2500 800 60  0000 C CNN
+	1    2500 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
 U 1 1 55B7FB2D
-P 3550 2350
-F 0 "#PWR02" H 3550 2100 50  0001 C CNN
-F 1 "GND" H 3550 2200 50  0000 C CNN
-F 2 "" H 3550 2350 60  0000 C CNN
-F 3 "" H 3550 2350 60  0000 C CNN
-	1    3550 2350
+P 2500 1300
+F 0 "#PWR02" H 2500 1050 50  0001 C CNN
+F 1 "GND" H 2500 1150 50  0000 C CNN
+F 2 "" H 2500 1300 60  0000 C CNN
+F 3 "" H 2500 1300 60  0000 C CNN
+	1    2500 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -130,67 +124,67 @@ $EndComp
 $Comp
 L ZENER D5
 U 1 1 55B808ED
-P 3300 1600
-F 0 "D5" H 3300 1700 50  0000 C CNN
-F 1 "15V 1.3W" H 3300 1500 50  0000 C CNN
-F 2 "Discret:D3" H 3300 1600 60  0001 C CNN
-F 3 "" H 3300 1600 60  0000 C CNN
-	1    3300 1600
+P 2000 1050
+F 0 "D5" H 2000 1150 50  0000 C CNN
+F 1 "15V 1.3W" H 2000 950 50  0000 C CNN
+F 2 "Discret:D3" H 2000 1050 60  0001 C CNN
+F 3 "" H 2000 1050 60  0000 C CNN
+	1    2000 1050
 	0    1    1    0   
 $EndComp
 $Comp
 L F_Small F1
 U 1 1 55B80C11
-P 3050 1000
-F 0 "F1" H 3010 1060 50  0000 L CNN
-F 1 "0.5A" H 2930 940 50  0000 L CNN
-F 2 "fuse:fuse_05A_slot" H 3050 1000 60  0001 C CNN
-F 3 "" H 3050 1000 60  0000 C CNN
-	1    3050 1000
-	0    1    1    0   
+P 1800 800
+F 0 "F1" H 1760 860 50  0000 L CNN
+F 1 "0.5A" H 1680 740 50  0000 L CNN
+F 2 "fuse:fuse_05A_slot" H 1800 800 60  0001 C CNN
+F 3 "" H 1800 800 60  0000 C CNN
+	1    1800 800 
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D3
 U 1 1 55B80F33
-P 2500 1050
-F 0 "D3" H 2500 1150 50  0000 C CNN
-F 1 "D" H 2500 950 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 2500 1050 60  0001 C CNN
-F 3 "" H 2500 1050 60  0000 C CNN
-	1    2500 1050
+P 1450 950
+F 0 "D3" H 1450 1050 50  0000 C CNN
+F 1 "100V 2A" H 1450 850 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 1450 950 60  0001 C CNN
+F 3 "" H 1450 950 60  0000 C CNN
+	1    1450 950 
 	-1   0    0    1   
 $EndComp
 $Comp
 L D D4
 U 1 1 55B8108A
-P 2500 1500
-F 0 "D4" H 2500 1600 50  0000 C CNN
-F 1 "D" H 2500 1400 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 2500 1500 60  0001 C CNN
-F 3 "" H 2500 1500 60  0000 C CNN
-	1    2500 1500
+P 1450 1250
+F 0 "D4" H 1450 1350 50  0000 C CNN
+F 1 "100V 2A" H 1450 1150 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 1450 1250 60  0001 C CNN
+F 3 "" H 1450 1250 60  0000 C CNN
+	1    1450 1250
 	-1   0    0    1   
 $EndComp
 $Comp
 L D D2
 U 1 1 55B8110B
-P 2200 1500
-F 0 "D2" H 2200 1600 50  0000 C CNN
-F 1 "D" H 2200 1400 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 2200 1500 60  0001 C CNN
-F 3 "" H 2200 1500 60  0000 C CNN
-	1    2200 1500
+P 1050 1250
+F 0 "D2" H 1050 1350 50  0000 C CNN
+F 1 "100V 2A" H 1050 1150 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 1050 1250 60  0001 C CNN
+F 3 "" H 1050 1250 60  0000 C CNN
+	1    1050 1250
 	-1   0    0    1   
 $EndComp
 $Comp
 L D D1
 U 1 1 55B81168
-P 2200 1050
-F 0 "D1" H 2200 1150 50  0000 C CNN
-F 1 "100V 2A" H 2200 950 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 2200 1050 60  0001 C CNN
-F 3 "" H 2200 1050 60  0000 C CNN
-	1    2200 1050
+P 1050 950
+F 0 "D1" H 1050 1050 50  0000 C CNN
+F 1 "100V 2A" H 1050 850 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15" H 1050 950 60  0001 C CNN
+F 3 "" H 1050 950 60  0000 C CNN
+	1    1050 950 
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1199,42 +1193,6 @@ F 3 "" H 8500 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  1500 900  2150
-Wire Wire Line
-	900  2150 2350 2150
-Wire Wire Line
-	900  1400 900  750 
-Wire Wire Line
-	900  750  2350 750 
-Wire Wire Line
-	3050 900  4550 900 
-Connection ~ 4100 900 
-Wire Wire Line
-	4100 2350 1650 2350
-Wire Wire Line
-	1650 2350 1650 1050
-Wire Wire Line
-	3300 1400 3300 900 
-Connection ~ 3300 900 
-Wire Wire Line
-	3050 1100 3050 1500
-Wire Wire Line
-	1650 1050 2050 1050
-Wire Wire Line
-	2050 1050 2050 1500
-Wire Wire Line
-	2350 750  2350 1050
-Wire Wire Line
-	2650 1050 2650 1500
-Wire Wire Line
-	2650 1500 3050 1500
-Wire Wire Line
-	2350 2150 2350 1500
-Connection ~ 2050 1050
-Connection ~ 2350 1500
-Connection ~ 2650 1500
-Connection ~ 2350 1050
-Wire Wire Line
 	950  6800 950  7000
 Wire Wire Line
 	1200 6800 1200 7000
@@ -1266,7 +1224,6 @@ Wire Wire Line
 	1200 6500 1200 4500
 Wire Wire Line
 	1450 6500 1450 4400
-Connection ~ 4100 2350
 Wire Wire Line
 	5350 3400 5450 3400
 Wire Wire Line
@@ -1280,18 +1237,11 @@ Wire Wire Line
 Wire Wire Line
 	6150 3400 6550 3400
 Wire Wire Line
-	3300 1800 3300 2350
-Connection ~ 3300 2350
-Wire Wire Line
 	5450 3600 4950 3600
 Wire Wire Line
 	5800 1350 5800 1250
 Wire Wire Line
 	6400 1350 6400 1250
-Wire Wire Line
-	4550 1200 4100 1200
-Wire Wire Line
-	4100 1200 4100 2350
 Connection ~ 9400 3350
 Connection ~ 9200 3350
 Connection ~ 9000 3350
@@ -1472,8 +1422,6 @@ Connection ~ 1700 3650
 Connection ~ 1700 3750
 Wire Wire Line
 	1700 3050 1700 3900
-Connection ~ 3550 900 
-Connection ~ 3550 2350
 Wire Wire Line
 	9750 700  9450 700 
 Wire Wire Line
@@ -1738,4 +1686,50 @@ F 3 "" H 8800 3350 60  0000 C CNN
 	1    8800 3350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1200 950  1300 950 
+Wire Wire Line
+	1250 950  1250 800 
+Connection ~ 1250 950 
+Wire Wire Line
+	1300 1250 1200 1250
+Wire Wire Line
+	1250 1250 1250 1450
+Wire Wire Line
+	800  1450 800  900 
+Connection ~ 1250 1250
+Wire Wire Line
+	900  950  900  1400
+Wire Wire Line
+	1250 800  800  800 
+Wire Wire Line
+	1250 1450 800  1450
+Wire Wire Line
+	900  1400 2300 1400
+Connection ~ 900  1250
+Wire Wire Line
+	1900 800  2700 800 
+Wire Wire Line
+	2000 800  2000 850 
+Wire Wire Line
+	2000 1400 2000 1250
+Wire Wire Line
+	2500 1300 2500 1200
+Wire Wire Line
+	2300 1200 2700 1200
+Connection ~ 2500 1200
+Connection ~ 2000 800 
+Wire Wire Line
+	2300 1400 2300 1200
+Connection ~ 2000 1400
+Connection ~ 2500 800 
+Wire Wire Line
+	1650 1250 1600 1250
+Wire Wire Line
+	1650 800  1650 1250
+Wire Wire Line
+	1650 950  1600 950 
+Connection ~ 1650 950 
+Wire Wire Line
+	1650 800  1700 800 
 $EndSCHEMATC

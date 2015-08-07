@@ -1,7 +1,7 @@
 (fp_lib_table
-  (lib (name sun_hold)(type KiCad)(uri "$(KIPRJMOD)\\sun_hold.pretty")(options "")(descr ""))
   (lib (name trans)(type KiCad)(uri "$(KIPRJMOD)\\trans.pretty")(options "")(descr ""))
   (lib (name fuse)(type KiCad)(uri "$(KIPRJMOD)\\fuse.pretty")(options "")(descr ""))
   (lib (name arduino)(type Legacy)(uri "$(KIPRJMOD)\\arduino.mod")(options "")(descr ""))
   (lib (name Buzzer_Beeper_RevA_25Oct2010)(type Legacy)(uri "$(KIPRJMOD)\\Buzzer_Beeper_RevA_25Oct2010.mod")(options "")(descr ""))
+  (lib (name sun_hold)(type KiCad)(uri "$(KIPRJMOD)\\sun_hold.pretty")(options "")(descr ""))
 )

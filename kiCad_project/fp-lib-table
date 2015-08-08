@@ -4,4 +4,8 @@
   (lib (name arduino)(type Legacy)(uri "$(KIPRJMOD)\\arduino.mod")(options "")(descr ""))
   (lib (name Buzzer_Beeper_RevA_25Oct2010)(type Legacy)(uri "$(KIPRJMOD)\\Buzzer_Beeper_RevA_25Oct2010.mod")(options "")(descr ""))
   (lib (name sun_hold)(type KiCad)(uri "$(KIPRJMOD)\\sun_hold.pretty")(options "")(descr ""))
+  (lib (name sun_hold_ras0515)(type KiCad)(uri "$(KIPRJMOD)\\sun_hold_ras0515.pretty")(options "")(descr ""))
+  (lib (name Diode_Smaller)(type KiCad)(uri "$(KIPRJMOD)\\Diode_Smaller.pretty")(options "")(descr ""))
+  (lib (name Resistor10W_vertical)(type KiCad)(uri "$(KIPRJMOD)\\Resistor10W_vertical.pretty")(options "")(descr ""))
+  (lib (name Attend_SD_card_socket)(type KiCad)(uri "$(KIPRJMOD)\\Attend_SD_card_socket.pretty")(options "")(descr ""))
 )
